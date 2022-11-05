@@ -14,7 +14,7 @@ class Children(Parents):
 daun = Children()
 
 class Wow:
-    def __wow(self):
+    def _wow(self):
         print('Wow')
     def _hello(self):
         print('Hello')
@@ -22,3 +22,11 @@ some_obj = Wow()
 some_obj._hello()
 some_obj._wow()
 
+class Hello:
+    def __init__(self):
+        print('Hello')
+class Hello_Woeld(Hello):
+    def __init__(self):
+        super().__init__()
+        print("World")
+HELLO_WOELD = Hello_Woeld()
