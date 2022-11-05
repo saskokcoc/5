@@ -1,6 +1,6 @@
 class Grantparent:
     height = 170
-    age = 60
+    age = 70
     sick = "cool"
 
 class Parents(Grantparent):
@@ -12,3 +12,13 @@ class Children(Parents):
         print(self.sick)
         print(self.age)
 daun = Children()
+
+class Wow:
+    def __wow(self):
+        print('Wow')
+    def _hello(self):
+        print('Hello')
+some_obj = Wow()
+some_obj._hello()
+some_obj._wow()
+
