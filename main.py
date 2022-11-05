@@ -30,3 +30,28 @@ class Hello_Woeld(Hello):
         super().__init__()
         print("World")
 HELLO_WOELD = Hello_Woeld()
+
+
+#les 6
+import requests
+
+help(requests)
+
+def first_function():
+    pass
+
+class Human:
+    pass
+
+rq  = requests
+first_f = first_function
+nazar = first_function
+print(requests.__name__)
+print(rq.__name__)
+print(first_function.__name__)
+print(r__name__)
+print(tyre(__name__))
+
+Ls = []
+for i in dir(ls)
+    print(i)
